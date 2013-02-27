@@ -139,8 +139,13 @@
 				
 				if(!$alt_attr) 
 					$alt_attr = $image_urls[$j];
+                
+                //Image desc and title change edits: Display Image titles and Content
+                $imgObj = wp_get_single_post( $attachment_id_item );
+                $imgTitle = $imgObj->post_title;
+                $imgDescription = esc_html( apply_filters( 'the_content', $imgObj->post_content ));
 				
-				$album_data .= "\t\t<li class=\"two-dim-item\"{$video_data}{$img_scale} data-img-width=\"{$image_widths[$j]}\" data-img-height=\"{$image_heights[$j]}\"><a href=\"{$image_urls[$j]}\">{$alt_attr}</a>";
+				$album_data .= "\t\t<li class=\"two-dim-item\"{$video_data}{$img_scale} data-img-title=\"{$imgTitle}\" data-img-description=\"{$imgDescription}\" data-img-width=\"{$image_widths[$j]}\" data-img-height=\"{$image_heights[$j]}\"><a href=\"{$image_urls[$j]}\">{$alt_attr}</a>";
 
 				$album_data .=  "</li>\n";
 				$j++;

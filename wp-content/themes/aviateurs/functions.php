@@ -204,7 +204,7 @@ function dsframework_scripts() {
 		if ( is_page_template('ds-gallery-masonry-template.php') ) {
 		    wp_enqueue_script( 'jquery.masonry', DS_THEME_PATH . '/js/jquery.masonry.min.js' );
 		} else {
-			wp_enqueue_script( 'jquery.two-dimensional-slider', DS_THEME_PATH . '/js/jquery.slider-pack.1.1.min.js' );
+			wp_enqueue_script( 'jquery.two-dimensional-slider', DS_THEME_PATH . '/js/jquery.slider-pack.1.1.titre-image.js' );
 
 			wp_localize_script( 'jquery.two-dimensional-slider', 'tdSliderVars', array(
 							'nextAlbum' => __('Next project', 'dsframework'),
