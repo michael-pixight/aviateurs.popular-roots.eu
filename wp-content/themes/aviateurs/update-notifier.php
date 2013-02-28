@@ -12,10 +12,10 @@
  
 
 // Constants for the theme name, folder and remote XML url
-define( 'NOTIFIER_THEME_NAME', 'Touchfolio' ); // The theme name
-define( 'NOTIFIER_THEME_FOLDER_NAME', 'touchfolio' ); // The theme folder name
-define( 'NOTIFIER_XML_FILE', 'http://dimsemenov.com/themes/touchfolio/notifier.xml' ); // The remote notifier XML file containing the latest version of the theme and changelog
-define( 'NOTIFIER_CACHE_INTERVAL', 30 ); // The time interval for the remote XML cache in the database (21600 seconds = 6 hours)
+//define( 'NOTIFIER_THEME_NAME', 'Touchfolio' ); // The theme name
+//define( 'NOTIFIER_THEME_FOLDER_NAME', 'touchfolio' ); // The theme folder name
+//define( 'NOTIFIER_XML_FILE', 'http://dimsemenov.com/themes/touchfolio/notifier.xml' ); // The remote notifier XML file containing the latest version of the theme and changelog
+//define( 'NOTIFIER_CACHE_INTERVAL', 30 ); // The time interval for the remote XML cache in the database (21600 seconds = 6 hours)
 
 
 

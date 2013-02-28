@@ -264,7 +264,7 @@ if( !class_exists( 'dsframework_gallery' ) )
 		    global $meta_box;
 		    add_meta_box('ds-gallery_manage', 'Images', array(&$this, 'ds_gallery_show_box'), 'ds-gallery', 'normal', 'high');
 		    add_meta_box('ds-gallery_settings', 'Settings', array(&$this, 'ds_gallery_show_settings_box'), 'ds-gallery', 'normal', 'low');
-		    add_meta_box('ds-gallery-beta-notice', 'Warning', array(&$this, 'ds_gallery_show_beta_notice'), 'ds-gallery', 'normal', 'low');
+		    //add_meta_box('ds-gallery-beta-notice', 'Warning', array(&$this, 'ds_gallery_show_beta_notice'), 'ds-gallery', 'normal', 'low');
 		}
 		public function ds_gallery_show_beta_notice() {
 			_e('<p style="font-size: 14px; line-height: 20px ">Please note, theme is currently in beta and may some issues, please <a href="http://support.dimsemenov.com/forums/159023-touchfolio">vote for new features and report bugs</a>.<br/>To get notified about complete theme release, follow me on <a href="http://twitter.com/dimsemenov">Twitter</a> or <a href="http://dimsemenov.com/subscribe.html">join my email newsletter</a> (unsubscribe at any time, MailChimp).</p>', 'dsframework'); 

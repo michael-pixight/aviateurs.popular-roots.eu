@@ -26,7 +26,7 @@ function of_option_setup()	{
 function dsframework_dashboard_footer () {
 	_e('Thank you for using <a href="http://dimsemenov.com/themes/touchfolio/">Touchfolio</a> by <a href="http://dimsemenov.com/">Dmitry Semenov</a>. <a href="http://support.dimsemenov.com/forums/159023-touchfolio">Leave feedback</a> or subscribe for news about theme via <a href="http://dimsemenov.com/subscribe.html">newsletter</a> or <a href="http://twitter.com/dimsemenov">Twitter</a>.', 'dsframework');
 }
-add_filter('admin_footer_text', 'dsframework_dashboard_footer');
+//add_filter('admin_footer_text', 'dsframework_dashboard_footer');
 
 /*-----------------------------------------------------------------------------------*/
 /* Admin Backend */

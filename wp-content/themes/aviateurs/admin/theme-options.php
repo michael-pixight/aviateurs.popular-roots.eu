@@ -100,9 +100,9 @@ $of_options[] = array( "name" => __("Favicon", 'dsframework'),
 
 
 $of_options[] = array( "name" => __("Footer Text", 'dsframework'),
-                    "desc" => __("Text in footer. Height of footer may be configured in selected skin less css file. Leaving 'Powered by Touchfolio' text is not required, but much appreciated and keeps project alive. ", 'dsframework'),
+                    "desc" => __("Text in footer. Height of footer may be configured in selected skin less css file. ", 'dsframework'),
                     "id" => "footer_text",
-                    "std" => "Powered by <a href='http://dimsemenov.com/themes/touchfolio/'>Touchfolio</a>.",
+                    "std" => "Texte du footer éditable.",
                     "type" => "textarea"); 
 
 $of_options[] = array( "name" => __("Google Fonts Code", 'dsframework'),
