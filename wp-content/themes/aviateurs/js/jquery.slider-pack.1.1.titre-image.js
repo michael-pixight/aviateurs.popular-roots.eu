@@ -231,7 +231,7 @@
         self._az5 = self._mn4.find('.album-info-text');
         self._by5 = self._mn4.find('.album-name-indicator');
         self._cx5 = self._mn4.find('.item-count-indicator');
-        self._dw5 = $('<div class="album-info-block text-block"><div class="album-info-text"></div></div>').appendTo('body');
+        self._dw5 = $('<div class="album-info-block text-block"><div class="album-info-text"></div></div>').appendTo('#main-slider');
         var l;
         self._mn4.bind('click', function () {
             self._ev5()

@@ -53,7 +53,7 @@ function optionsframework_add_admin() {
 	
    // $of_page = add_menu_page('themes.php', THEMENAME, 'Theme Options', 'edit_theme_options', 'optionsframework','optionsframework_options_page'); // Default
 
-    $of_page = add_object_page('Touchfolio', 'Touchfolio', 'edit_theme_options', 'optionsframework', 'optionsframework_options_page', ADMIN_DIR .'images/rabbit.png' );
+    $of_page = add_object_page('Aviateurs', 'Aviateurs', 'edit_theme_options', 'optionsframework', 'optionsframework_options_page', ADMIN_DIR .'images/rabbit.png' );
 
 	// Add framework functionaily to the head individually
 	add_action("admin_print_scripts-$of_page", 'of_load_only');
@@ -94,8 +94,7 @@ global $options_machine;
   <form id="of_form" method="post" action="<?php echo esc_attr( $_SERVER['REQUEST_URI'] ) ?>" enctype="multipart/form-data" >
     <div id="header">
       <div class="logo">
-        <h2><?php echo THEMENAME . __(' Theme Options', 'dsframework'); ?></h2>
-        <?php _e('<p style="font-size: 14px; line-height: 20px ">Please note, theme is currently in beta and may some issues, please <a href="http://support.dimsemenov.com/forums/159023-touchfolio">vote for new features and report bugs</a>.<br/>To get notified about complete theme release, follow me on <a href="http://twitter.com/dimsemenov">Twitter</a> or <a href="http://dimsemenov.com/subscribe.html">join my email newsletter</a> (unsubscribe at any time, MailChimp).</p>', 'dsframework'); ?>
+        <h2><?php echo THEMENAME . __(' Theme Options', 'dsframework'); ?></h2>        
       </div>
 	  <div id="js-warning">Warning- This options panel will not work properly without javascript!</div>
       <div class="clear"></div>

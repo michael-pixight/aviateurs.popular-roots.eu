@@ -444,12 +444,11 @@ form input, form textarea {
   display:none;
   overflow:auto;
   z-index:50;
-  width:65%;
+  width:100%;
   padding:0;
   background:#ffffff;
   right:0;
-  bottom:32px;
-  max-width:40em;
+  bottom:8px;
   color:#3b3a37;
 }
 .album-info-block .bottom-bar { width:100%; }

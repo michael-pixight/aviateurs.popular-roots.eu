@@ -41,9 +41,8 @@ function optionsframework_admin_message() {
     <script type="text/javascript">
     jQuery(function(){
     	
-        var message = "<?php _e('<h2>Congratulations, Touchfolio theme installed!</h2><p style=\"font-size: 15px; line-height: 20px \">Theme is currently in beta and may contain bugs, please <a href=\"http://support.dimsemenov.com/forums/159023-touchfolio\">vote for features and report bugs</a>.<br/>To get notified about complete theme release, follow me on <a href=\"http://twitter.com/dimsemenov\">Twitter</a> or <a href=\"http://dimsemenov.com/subscribe.html\">join my email newsletter</a> (unsubscribe at any time, MailChimp).</p>', 'dsframework'); ?>";
+        var message = "<?php _e('<h2>Congratulations, Aviateurs theme installed!</h2>', 'dsframework'); ?>";
 
-        message += '<p><a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="http://dimsemenov.com/themes/touchfolio/" data-text="Touchfolio — free responsive portfolio WordPress theme" data-via="dimsemenov">Tweet</a></p>';
 
 
         message += '';

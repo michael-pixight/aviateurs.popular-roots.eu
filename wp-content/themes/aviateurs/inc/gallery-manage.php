@@ -167,7 +167,7 @@ if( !class_exists( 'dsframework_gallery' ) )
 				'capability_type' => 'post',
 				'hierarchical' => false,
 				'menu_position' => 5,
-				'supports' => array('title', 'editor', 'thumbnail', 'excerpt'),
+				'supports' => array('title', /*'editor',*/ 'thumbnail', 'excerpt'), // retrait de 'editor' du support de notre post type album puisque nous utilisons les descriptions des images.
 				'menu_icon' => get_stylesheet_directory_uri() . '/img/gallery-menu-icon.png'
 			  ); 
 			  
